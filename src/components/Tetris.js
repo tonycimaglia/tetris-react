@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { createGameWindow } from '../gameHelpers'
+
 import GameWindow from './GameWindow';
 import Display from './Display';
 import StartButton from './StartButton';
@@ -8,7 +10,7 @@ const Tetris = () => {
 
   return (
     <div>
-      <GameWindow />
+      <GameWindow gameWindow ={createGameWindow()}/>
       <aside>
         <div>
           <Display text="Score"/>
