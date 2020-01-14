@@ -15,6 +15,7 @@ const Tetris = () => {
           <Display text="Rows"/>
           <Display text="Level"/>
         </div>
+        <StartButton />
       </aside>
 
     </div>
