@@ -9,18 +9,19 @@ import StartButton from './StartButton';
 const Tetris = () => {
 
   return (
-    <div>
-      <GameWindow gameWindow ={createGameWindow()}/>
-      <aside>
-        <div>
-          <Display text="Score"/>
-          <Display text="Rows"/>
-          <Display text="Level"/>
-        </div>
-        <StartButton />
-      </aside>
-
-    </div>
+    <StyledTetrisWrapper>
+      <StyledTetris>
+        <GameWindow gameWindow ={createGameWindow()}/>
+        <aside>
+          <div>
+            <Display text="Score"/>
+            <Display text="Rows"/>
+            <Display text="Level"/>
+          </div>
+          <StartButton />
+        </aside>
+      </StyledTetris>
+    </StyledTetrisWrapper>
   )
 }
 
