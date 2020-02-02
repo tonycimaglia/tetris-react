@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { createGameWindow } from '../gameHelpers';
+// styled components
 import { StyledTetris, StyledTetrisWrapper } from './styled-components/StyledTetris'
 
 import GameWindow from './GameWindow';
